@@ -1,0 +1,7 @@
+{
+  "title": "'.NET' Microsoft tomonidan ishlab chiqilgan dasturiy ta'minotni ishlab chiqish tizimiga ishora qiladi. U Windows-ga asoslangan operatsion tizimlarda dasturiy ta'minot ishlab chiqilishi, o'rnatilishi va bajarilishi mumkin bo'lgan boshqariladigan dasturlash muhitini ta'minlaydi. '.NET' bir nechta dasturlash tillari, kutubxonalari va vositalarini o'z ichiga oladi, bu esa ishlab chiquvchilarga veb-ilovalardan tortib ish stoli dasturlari va mobil ilovalargacha bo'lgan keng doiradagi ilovalarni yaratishga imkon beradi. Bu butun dunyo bo'ylab ishlab chiquvchilar tomonidan mustahkam va kengaytiriladigan ilovalarni yaratish uchun foydalaniladigan ko'p qirrali platforma",
+  "form": {
+    "firstName": "Ism",
+    "lastName": "Familiya"
+  }
+}

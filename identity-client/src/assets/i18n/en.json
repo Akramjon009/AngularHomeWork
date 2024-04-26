@@ -1,0 +1,7 @@
+{
+    "title": "'.NET refers' to a software development framework developed by Microsoft. It provides a controlled programming environment where software can be developed, installed, and executed on Windows-based operating systems. '.NET' encompasses multiple programming languages, libraries, and tools, allowing developers to create a wide range of applications, from web applications to desktop software and mobile apps. It's a versatile platform used by developers worldwide for building robust and scalable applications.",
+    "form": {
+       "firstName": "First Name",
+       "lastName": "Last Name"
+      }
+}
