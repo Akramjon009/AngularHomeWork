@@ -41,4 +41,25 @@ export class AuthService {
       })
     );
   }
+
+  logout(){
+    localStorage.setItem(this.tokenKey, '');
+  }
+
+  checkRouting(data: string[]): boolean {
+
+
+    for (let index = 0; index < data.length; index++) {
+      const element = data[index];
+      if(element == 'Admin') {
+        this.router.navigate(['/users'])
+        return true
+      } else if(element == 'Student') {
+        this.router.navigate(['/student-profile'])
+        return true
+      }
+    }
+  
+    return false;
+  };
 }

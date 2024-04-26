@@ -23,6 +23,8 @@ export class LoginComponent implements OnInit {
   tokenKey = 'token' 
   roles: string[] = [];
 
+  tokenDecoded : any;
+
   login(){
     this.authService.login(this.formLogin.value).subscribe(
       {
@@ -104,5 +106,16 @@ export class LoginComponent implements OnInit {
         confirmPassword: ['', Validators.required],
         roles: ['', Validators.required],
       })
+
+
+      this.tokenDecoded = jwtDecode(localStorage.getItem(this.tokenKey)!)
+      console.log('decoded token');
+      console.log(this.tokenDecoded);
+      console.log('data kelyabdi');
+      console.log(Date.now());
+
+      if(this.tokenDecoded.exp * 1000 < Date.now()){
+        this.router.navigate(['/login'])
+      }
     }
 }

@@ -23,6 +23,7 @@ import { StudentDetailsComponent } from './admin/students/student-details/studen
 import { StudentProfileComponent } from './admin/students/student-profile/student-profile.component';
 import { UserProfileComponent } from './admin/users/user-profile/user-profile.component';
 import { FormsModule, NgModel, ReactiveFormsModule } from '@angular/forms';
+import { TranslocoRootModule } from './transloco-root.module';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { FormsModule, NgModel, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     MatSnackBarModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    TranslocoRootModule
   ],
   providers: [
     provideAnimationsAsync(),
